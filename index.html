@@ -1068,7 +1068,7 @@
                 <div
                   class="collapse collapse-plus join-item border border-base-300 border-l-0 border-t-0 border-r-0"
                 >
-                  <input type="radio" name="my-accordion-4"  />
+                  <input type="radio" name="my-accordion-4" />
                   <div class="collapse-title text-xl font-bold">
                     Hockey Training
                   </div>
@@ -1084,7 +1084,7 @@
                 <div
                   class="collapse collapse-plus join-item border border-base-300 border-l-0 border-t-0 border-r-0"
                 >
-                  <input type="radio" name="my-accordion-4"  />
+                  <input type="radio" name="my-accordion-4" />
                   <div class="collapse-title text-xl font-bold">
                     Private Lessons
                   </div>
@@ -1100,7 +1100,7 @@
                 <div
                   class="collapse collapse-plus join-item border border-base-300 border-l-0 border-t-0 border-r-0"
                 >
-                  <input type="radio" name="my-accordion-4"  />
+                  <input type="radio" name="my-accordion-4" />
                   <div class="collapse-title text-xl font-bold">
                     Ski Touring
                   </div>
@@ -1116,10 +1116,8 @@
                 <div
                   class="collapse collapse-plus join-item border border-base-300 border-l-0 border-t-0 border-r-0"
                 >
-                  <input type="radio" name="my-accordion-4"  />
-                  <div class="collapse-title text-xl font-bold">
-                    Booking
-                  </div>
+                  <input type="radio" name="my-accordion-4" />
+                  <div class="collapse-title text-xl font-bold">Booking</div>
                   <div class="collapse-content">
                     <p class="leading-baselead pr-32">
                       Dolor sit amet consectetur. Ut urna diam quis sagittis.
@@ -1129,13 +1127,9 @@
                 </div>
 
                 <!-- six -->
-                <div
-                  class="collapse collapse-plus join-item border-0 "
-                >
-                  <input type="radio" name="my-accordion-4"  />
-                  <div class="collapse-title text-xl font-bold">
-                    Pricings
-                  </div>
+                <div class="collapse collapse-plus join-item border-0">
+                  <input type="radio" name="my-accordion-4" />
+                  <div class="collapse-title text-xl font-bold">Pricings</div>
                   <div class="collapse-content">
                     <p class="leading-baselead pr-32">
                       Dolor sit amet consectetur. Ut urna diam quis sagittis.
@@ -1149,8 +1143,9 @@
         </div>
       </div>
       <!-- contact section -->
-      <!-- <div class="new_product mb-16 lg:mb-24">
-        <div
+      <article class="new_product mb-16 lg:mb-24">
+        <!-- heading -->
+        <header
           class="heading-text text-center border border-y-2 border-x-0 border-dashed border-[#131318]/20 p-12 mt-8 mb-8"
         >
           <h2
@@ -1164,8 +1159,156 @@
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
             turpis placerat dolor. Purus urna in sit nullam proin.
           </p>
-        </div>
-      </div> -->
+        </header>
+        <!-- contact form container -->
+        <main
+          class="container grid sm:grid-cols-6 lg:grid-cols-12 gap-4 w-full lg:mt-4"
+        >
+          <!-- First Div (Takes 5 columns on large screens, full width on small screens) -->
+          <div
+            class="lg:col-span-5 sm:col-span-6 max-sm:p-6 lg:p-12 border border-1 rounded-2xl grid grid-cols-1 gap-6 sm:gap-4"
+          >
+            <!-- Content for the first div -->
+            <!-- card 1 -->
+            <div class="card bg-[#BCED6D1A]">
+              <div class="card-body space-y-6">
+                <img class="w-12" src="./Images/phone.svg" alt="" />
+                <p class="leading-8 text-gray-500">
+                  Phone Number :
+                  <br />
+                  <span class="text-lg leading-8 font-extrabold text-[#131318]"
+                    >(+62) 123-321-543</span
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card bg-[#FDDD5F1A]">
+              <div class="card-body space-y-6">
+                <img class="w-12" src="./Images/envelop.svg" alt="" />
+                <p class="leading-8 text-gray-500">
+                  Email :
+                  <br />
+                  <span class="text-lg leading-8 font-extrabold text-[#131318]"
+                    >hockeys@support.com</span
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card bg-[#629CF31A]">
+              <div class="card-body space-y-6">
+                <img class="w-12" src="./Images/locationpin.svg" alt="" />
+                <p class="leading-8 text-gray-500">
+                  Location :
+                  <br />
+                  <span class="text-lg leading-8 font-extrabold text-[#131318]"
+                    >152/1 Mohakhali Wireless Gate</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Div (Takes 7 columns on large screens, full width on small screens) -->
+          <div class="lg:col-span-7 sm:col-span-6">
+            <!-- Content for the second div -->
+            <form>
+              <div class="container grid grid-cols-2 gap-6">
+                <!-- firse row -->
+                <!-- name field -->
+                <label class="form-control w-full space-y-4 max-sm:col-span-2">
+                  <div class="label p-0">
+                    <span class="label-text text-[#131318] text-xl font-bold"
+                      >Your Name :</span
+                    >
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="Enter your full name"
+                    class="input input-bordered bg-[#f8f8f8]"
+                  />
+                </label>
+                <!-- email field -->
+                <label class="form-control w-full space-y-4 max-sm:col-span-2">
+                  <div class="label p-0">
+                    <span class="label-text text-[#131318] text-xl font-bold"
+                      >Your Email :</span
+                    >
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="Enter your email"
+                    class="input input-bordered bg-[#f8f8f8]"
+                  />
+                </label>
+
+                <!-- second row -->
+                <!-- subject field -->
+                <label class="form-control w-full space-y-4 max-sm:col-span-2">
+                  <div class="label p-0">
+                    <span class="label-text text-[#131318] text-xl font-bold"
+                      >Subject :</span
+                    >
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="Enter your subject"
+                    class="input input-bordered bg-[#f8f8f8]"
+                  />
+                </label>
+                <!-- phone number field -->
+                <label class="form-control w-full space-y-4 max-sm:col-span-2">
+                  <div class="label p-0">
+                    <span class="label-text text-[#131318] text-xl font-bold"
+                      >Phone Number :</span
+                    >
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="Enter your phone number"
+                    class="input input-bordered bg-[#f8f8f8]"
+                  />
+                </label>
+
+                <!-- third row -->
+                <!-- message field -->
+                <label class="form-control col-span-2 w-full space-y-4">
+                  <div class="label p-0">
+                    <span class="label-text text-[#131318] text-xl font-bold"
+                      >Message :</span
+                    >
+                  </div>
+                  <textarea
+                    type="text"
+                    placeholder="Write your message"
+                    class="textarea textarea-bordered bg-[#f8f8f8] p-5 h-[400px] max-sm:h-[200px]"
+                  ></textarea>
+                </label>
+                <div class="col-span-2">
+                  <button
+                    class="btn bg-basecolor btn-block text-xl font-bold lg:mt-6 lg:col-span-2 text-white"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </main>
+        <!-- footer -->
+        <footer
+          class="mt-12 bg-[#13131808] rounded-xl p-9 flex flex-col gap-6 justify-center items-center"
+        >
+          <h3 class="font-extrabold text-2xl text-black">Social Media</h3>
+          <div class="space-x-6">
+            <i class="fa-brands fa-twitter w-6"></i>
+            <i class="fa-brands fa-facebook-f w-6"></i>
+            <i class="fa-brands fa-instagram w-6"></i>
+            <i class="fa-brands fa-github w-6"></i>
+          </div>
+        </footer>
+      </article>
     </main>
     <!-- footer -->
     <!-- <footer></footer> -->
